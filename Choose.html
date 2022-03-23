@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    body {
+    	background-color: lightgrey;
+
+    }
+    </style>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
+    <title>Create Performance Task</title>
+    <h1>Choose a Topic:</h1>
+    <button class="dogs" onclick="dogs()">Dogs and Cats</button>
+    <button class="home" onclick="home()">Home</button>
+    <button class="safari" onclick="land()">Safari Animals</button>
+    <button class="sea" onclick="sea()">Sea Animals</button>
+    <img class = "dc" src="Dog&Cat.png">
+    <img class = "saf" src="Safari.png">
+    <img class = "coral" src="Coral.png">
+    <script src="createTask.js"></script>
+  </head>
+  <body>
+    <script>
+    function dogs() {
+      location.replace("Page1.html");
+    }
+    function land() {
+      location.replace("Page2.html");
+    }
+    function sea() {
+      location.replace("Page3.html");
+    }
+    function home() {
+      location.replace("index.html");
+    }
+    </script>
+
+  </body>
+</html>
