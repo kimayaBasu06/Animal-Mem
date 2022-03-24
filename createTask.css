@@ -178,3 +178,111 @@ p {
 	top: 50%;
 	left: 73%;
 }
+
+.r1c1 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+  border: 5px solid #555;
+}
+
+.r1c2 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 15%;
+	left: 31%;
+  border: 5px solid #555;
+}
+
+.r1c3 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 15%;
+	left: 52%;
+  border: 5px solid #555;
+}
+
+.r1c4 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 15%;
+	right: 10%;
+  border: 5px solid #555;
+}
+
+.r2c1 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 45%;
+	left: 10%;
+  border: 5px solid #555;
+}
+
+.r2c2 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 45%;
+	left: 31%;
+  border: 5px solid #555;
+}
+
+.r2c3 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 45%;
+	left: 52%;
+  border: 5px solid #555;
+}
+
+.r2c4 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 45%;
+	right: 10%;
+  border: 5px solid #555;
+}
+
+.r3c1 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 10%;
+  border: 5px solid #555;
+}
+
+.r3c2 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 31%;
+  border: 5px solid #555;
+}
+
+.r3c3 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	left: 52%;
+  border: 5px solid #555;
+}
+
+.r3c4 {
+  width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 75%;
+	right: 10%;
+  border: 5px solid #555;
+}
