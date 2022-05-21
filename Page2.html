@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <style>
+    body {
+     background-image: url("landAni.png");
+    }
+    </style>
     <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
-    <title>Land</title>
     <h2>Land Animals</h2>
-    <button class="home" onclick="home()">Home</button>
     <script src="createTask.js"></script>
   </head>
   <body>
     <script>
-    function home() {
-      location.replace("index.html");
+    function questionCheck(qCell) {
+      qNum = localStorage.getItem("questionNumber")
+      do  {
+        if  (qCell ==  qNum) {
+          var qCell = Math.floor(Math.random() * 11);
+          false;
+        }
+        else {
+          true;
+        }
+      }while(false)
+      document.write('<button class="facts">'+ laFacts[qCell] +'</button>')
+      var qNum = localStorage.setItem("questionNumber", qCell);
     }
+
+    function reFresh() {
+      location.replace("Page2.html")
+    }
+    goHome()
+    ran()
+    start2()
+    question()
+    score()
     </script>
 
   </body>

@@ -7,13 +7,10 @@
 
     }
     </style>
-    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
-    <title>Create Performance Task</title>
     <h1>Choose a Topic:</h1>
     <button class="dogs" onclick="dogs()">Dogs and Cats</button>
-    <button class="home" onclick="home()">Home</button>
-    <button class="safari" onclick="land()">Safari Animals</button>
+    <button class="safari" onclick="land()">Land Animals</button>
     <button class="sea" onclick="sea()">Sea Animals</button>
     <img class = "dc" src="Dog&Cat.png">
     <img class = "saf" src="Safari.png">
@@ -31,9 +28,21 @@
     function sea() {
       location.replace("Page3.html");
     }
-    function home() {
-      location.replace("index.html");
-    }
+    // cards = localStorage.getItem("cards");
+    // cards = 0;
+    // window.alert(cards)
+    // var cards = localStorage.setItem("pages", card);
+    var p = 3;
+    var points = localStorage.setItem("points", p);
+
+    var fscore = 0;
+    var fscore = localStorage.setItem("fScore", fscore);
+
+    var ogQ = 32;
+    var qNum = localStorage.setItem("questionNumber", ogQ);
+
+
+    goHome()
     </script>
 
   </body>

@@ -6,37 +6,36 @@
      background-image: url("paw.jpg");
     }
     </style>
-    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
-    <title>Dogs</title>
     <h2>Dogs and Cats</h2>
-    <button class="home" onclick="home()">Home</button>
     <script src="createTask.js"></script>
-
-    <img class = "r1c1" src="cdCard.png"  onclick="flip()">
-    <img class = "r1c2" src="cdCard.png"  onclick="flip()">
-    <img class = "r1c3" src="cdCard.png"  onclick="flip()">
-    <img class = "r1c4" src="cdCard.png"  onclick="flip()">
-
-    <img class = "r2c1" src="cdCard.png"  onclick="flip()">
-    <img class = "r2c2" src="cdCard.png"  onclick="flip()">
-    <img class = "r2c3" src="cdCard.png"  onclick="flip()">
-    <img class = "r2c4" src="cdCard.png"  onclick="flip()">
-
-    <img class = "r3c1" src="cdCard.png"  onclick="flip()">
-    <img class = "r3c2" src="cdCard.png"  onclick="flip()">
-    <img class = "r3c3" src="cdCard.png"  onclick="flip()">
-    <img class = "r3c4" src="cdCard.png"  onclick="flip()">
 
   </head>
   <body>
     <script>
-    function home() {
-      location.replace("index.html");
+    function questionCheck(qCell) {
+      qNum = localStorage.getItem("questionNumber")
+      var qCell = Math.floor(Math.random() * 11);
+      do  {
+        if  (qCell ==  qNum) {
+          var qCell = Math.floor(Math.random() * 11);
+          false;
+        }
+        else {
+          true;
+        }
+      }while(false)
+      document.write('<button class="facts">'+ dcFacts[qCell] +'</button>')
+      var qNum = localStorage.setItem("questionNumber", qCell);
     }
-    function flip() {
-      turn()
+    function reFresh() {
+      location.replace("Page1.html")
     }
+    ran()
+    goHome()
+    start1()
+    question()
+    score()
     </script>
 
   </body>

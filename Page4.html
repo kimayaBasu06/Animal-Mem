@@ -3,23 +3,21 @@
   <head>
     <style>
     body {
-    	background-color: #e7effe;
-
+    	background-color: lightgrey;
     }
     </style>
     <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
-    <h1>Animal Memory Game</h1>
-    <button class="instructions" onclick="instructions()">Instructions</button>
-
+    <h1>GAME OVER</h1>
   </head>
   <script src="createTask.js"></script>
   <body>
     <script>
-    function instructions() {
-      location.replace("Instructions.html");
-    }
-    goPlay()
+    fscore = localStorage.getItem("fScore");
+    document.write('<button class="endScore"> Your Score: '+ fscore +'</button>')
+    var fscore = localStorage.setItem("fScore", fscore);
+    goHome()
     printIMGs()
+    playAgain()
     </script>
 
   </body>

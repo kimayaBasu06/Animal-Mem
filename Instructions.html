@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <style>
+    body {
+    	background-color: #e7effe;
+    }
+    </style>
     <link rel="stylesheet" type="text/css" href="createTask.css?rnd=132">
-    <title>INSTRUCTIONS</title>
     <h1>Instructions</h1>
-    <button class="home" onclick="home()">Home</button>
-    <button class="play" onclick="play()">PLAY</button>
     <script src="createTask.js"></script>
 
-    <p>to play the game...</p>
+
 
   </head>
   <body>
     <script>
-    function home() {
-      location.replace("index.html");
-    }
-    function play() {
-      location.replace("Choose.html");
-    }
-    document.write(intructions);
+    document.write('<p>'+ instructions +'</p>')
+    //document.write(intructions);
+    goHome()
+    goPlay()
     </script>
 
   </body>
